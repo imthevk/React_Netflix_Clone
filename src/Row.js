@@ -3,10 +3,10 @@ import React, { useState, useEffect } from "react";
 import "./row.css";
 
 export default function Row({ title, fetchUrl, isLargePoster }) {
-  const baseURL = "https://api.themoviedb.org/3";
-
-  const base_Url = "https://image.tmdb.org/t/p/w200";
   const [movies, setMovies] = useState([]);
+
+  const baseURL = "https://api.themoviedb.org/3";
+  const base_Url = "https://image.tmdb.org/t/p/w200";
 
   useEffect(() => {
     const getMovies = async () => {
