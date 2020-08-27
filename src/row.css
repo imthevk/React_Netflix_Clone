@@ -1,0 +1,25 @@
+.row {
+  /* margin-left: 20px; */
+  color: #fff;
+  background-color: #111;
+  margin-bottom: 2rem;
+}
+
+.row-posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.row-poster {
+  object-fit: contain;
+  max-height: 150px;
+  margin-right: 10px;
+  width: 100%;
+  transition: transform 500ms;
+}
+.row-poster:hover {
+  transform: scale(1.3);
+}
+.large-row {
+  max-height: 250px;
+}
