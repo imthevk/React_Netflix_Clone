@@ -12,7 +12,6 @@ export default function Nav() {
         className="avatar"
         src=" https://img.icons8.com/cotton/2x/gender-neutral-user.png"
         alt="avatar"
-        width={50}
       />
     </div>
   );
